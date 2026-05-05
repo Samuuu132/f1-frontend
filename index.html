@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Drivers Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>F1 Drivers Tracker</h1>
+        <p>Gestión de Pilotos de Fórmula 1</p>
+    </header>
+    <main>
+        <section class="form-container">
+            <h2 id="form-title">Añadir Piloto</h2>
+            <form id="driver-form">
+                <input type="hidden" id="driver-id">
+                <input type="hidden" id="imagen-actual">
+                <input type="text" id="nombre" placeholder="Nombre del piloto" required>
+                <input type="text" id="equipo" placeholder="Equipo (ej. Red Bull, Ferrari)" required>
+                <input type="text" id="nacionalidad" placeholder="Nacionalidad" required>
+                <input type="number" id="numero" placeholder="Número del auto" required min="1" max="99">
+                <label for="imagen">Foto del piloto (máx. 1MB)</label>
+                <input type="file" id="imagen" accept="image/*">
+                <button type="submit" id="submit-btn">Guardar Piloto</button>
+            </form>
+        </section>
+        <section id="drivers-list" class="drivers-grid">
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
