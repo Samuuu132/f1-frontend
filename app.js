@@ -1,6 +1,4 @@
-const API_URL = window.location.hostname === 'localhost'
-    ? 'http://localhost:8000/drivers'
-    : 'https://f1-backend-production-05fa.up.railway.app/drivers';
+const API_URL = 'https://f1-backend-production-05fa.up.railway.app/drivers';
 const form = document.getElementById('driver-form');
 const driversList = document.getElementById('drivers-list');
 const formTitle = document.getElementById('form-title');
@@ -22,8 +20,8 @@ function getBase64(file) {
 async function fetchDrivers() {
     try {
         const response = await fetch(API_URL);
-        const drivers = await response.json();
-        renderDrivers(drivers);
+        const result = await response.json();
+        renderDrivers(result.data);
     } catch (error) {
         console.error('Error al cargar los pilotos:', error);
     }
