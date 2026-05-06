@@ -3,6 +3,9 @@
 Cliente web para gestionar pilotos de Fórmula 1.
 Construido con HTML, CSS y JavaScript vanilla.
 
+## 🌐 Ver proyecto en vivo
+👉 https://samuuu132.github.io/f1-frontend/
+
 ## Screenshot
 
 <img width="1064" height="1128" alt="image" src="https://github.com/user-attachments/assets/dd187ce5-1055-4599-b1f2-3eed1a83e460" />
@@ -35,15 +38,15 @@ git clone https://github.com/Samuuu132/f1-frontend.git
 
 ## Link al proyecto en producción
 
-👉 https://samuuu132.github.io/f1-frontend
+👉 https://samuuu132.github.io/f1-frontend/
 
 ## Link al backend
 
-👉 https://github.com/Samuuu132/f1-backend
+👉 https://github.com/Samuuu132/backend
 
 ## API del backend en producción
 
-👉 https://f1-backend-production-05fa.up.railway.app
+👉 https://backend-8xza.onrender.com
 
 ## Challenges implementados
 
