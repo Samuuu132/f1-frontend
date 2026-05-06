@@ -1,4 +1,4 @@
-const API_URL = 'https://f1-backend-production-05fa.up.railway.app/drivers';
+const API_URL = 'https://backend-8xza.onrender.com/drivers';
 const form = document.getElementById('driver-form');
 const driversList = document.getElementById('drivers-list');
 const formTitle = document.getElementById('form-title');
